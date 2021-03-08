@@ -1,24 +1,17 @@
-# README
+# Rails View Component based CSS encapsulation
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Demonstrates a technique to automatically encapsulate View Component sidecar CSS
 
-Things you may want to cover:
+If you don't want to download and run yourself, here's the relevant results:
 
-* Ruby version
+## Rendered
 
-* System dependencies
+![Rendered output](./docs/rendered-html.png)
 
-* Configuration
+## CSS Output
 
-* Database creation
+![CSS output](./docs/css.png)
 
-* Database initialization
+## HTML Output
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![HTML output](./docs/html.png)

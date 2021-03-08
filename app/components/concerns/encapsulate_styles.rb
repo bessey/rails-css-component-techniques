@@ -5,12 +5,12 @@ module EncapsulateStyles
       'app/components'
     end
 
-    def css_class
+    def component_class
       "#{component_root_path}/#{name.underscore.dasherize}".gsub('/', '--')
     end
 
     def selector
-      ".#{css_class}"
+      ".#{component_class}"
     end
 
     # Change or disable the tag that the view is automatically wrapped in to scope the associated styles
@@ -24,12 +24,12 @@ module EncapsulateStyles
   end
 
 
-  def css_class
-    self.class.css_class
+  def component_class
+    self.class.component_class
   end
 
   def automatic_wrapper_tag(tag, &block)
-    content_tag(tag, class: css_class, &block)
+    content_tag(tag, class: component_class, &block)
   end
 
   def render_in(view_component, &block)
