@@ -1,0 +1,12 @@
+<p>
+Hello World
+</p>
+
+<%= render(ButtonComponent.new(action: root_path)) do %>
+  Button outside a card
+<% end %>
+
+
+<%= render(CardComponent.new(action: root_path)) do %>
+  <p>Hai</p>
+<% end %>

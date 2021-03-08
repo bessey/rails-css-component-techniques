@@ -1,0 +1,10 @@
+/* Hi */
+
+body {
+  font-family: sans-serif;
+  padding: 2vh 3vw;
+}
+
+* {
+  box-sizing: border-box;
+}

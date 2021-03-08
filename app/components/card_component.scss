@@ -1,0 +1,8 @@
+::component {
+  border: 2px solid orange;
+  padding: 1rem;
+
+  ::component("button_component") {
+    color: yellow;
+  }
+}
