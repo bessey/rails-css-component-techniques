@@ -1,6 +1,6 @@
 # Rails View Component based CSS encapsulation
 
-Demonstrates a technique to automatically encapsulate View Component sidecar CSS.
+Demonstrates a technique to automatically encapsulate View Component sidecar CSS. When writing sidecar css simply use the `::component` psuedo-element selector to reference the component under development, and a class will be generated and your component will be wrapped in it.
 
 See [the feature's PR](https://github.com/bessey/rails-css-component-techniques/pull/1) to find the interesting bits from the Rails cruft.
 
